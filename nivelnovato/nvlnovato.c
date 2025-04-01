@@ -93,51 +93,51 @@ int main() {
         printf("\n");
 
     if (popu1 > popu2) {
-        printf("Carta 1 %s venceu com a População de:  %lu\n", estado1, popu1);
+        printf("Carta 1 (%s) venceu, com a População de:  %lu\n", cidade1, popu1);
     }   else {
-        printf("Carta 2 %s venceu com a População de:  %lu\n", estd2, popu2);
+        printf("Carta 2 (%s) venceu, com a População de:  %lu\n", cidade2, popu2);
     }
-         printf("\n");
-
+            printf("\n");
+    
     if (area1 > area2) {
-        printf("Carta 1 %s venceu com a Área de:  %.2f km2\n", estado1, area1);
+        printf("Carta 1 (%s) venceu, com a Área de:  %.2f km2\n", cidade1, area1);
     } else {
-        printf("Carta 2 %s venceu com a Área de:  %.2f km2\n", estd2, area2);
+        printf("Carta 2 (%s) venceu, com a Área de:  %.2f km2\n", cidade2, area2);
     }
-         printf("\n");
-
+            printf("\n");
+    
     if (pib1 > pib2) {
-        printf("Carta 1 %s venceu com o PIB de:  %.2f bilhões\n", estado1, pib1);
+        printf("Carta 1 (%s) venceu, com o PIB de:  %.2f bilhões\n", cidade1, pib1);
     } else {
-        printf("Carta 2 %s venceu com o PIB de:  %.2f bilhões\n", estd2, pib2);
+        printf("Carta 2 (%s) venceu, com o PIB de:  %.2f bilhões\n", cidade2, pib2);
     }
-         printf("\n");
-
+            printf("\n");
+    
     if (pnt1 > pntc2) {
-        printf("Carta 1 %s venceu com %d Pontos Turísticos \n", estado1, pnt1);
+        printf("Carta 1 (%s) venceu, com %d Pontos Turísticos \n", cidade1, pnt1);
     } else {
-        printf("Carta 2 %s venceu com %d Pontos Turísticos \n",  estd2, pntc2);
+        printf("Carta 2 (%s) venceu, com %d Pontos Turísticos \n",  cidade2, pntc2);
     }
-         printf("\n");
-
+            printf("\n");
+    
     if (DensidadePopu1 < DensiPopulacional2) {
-        printf("Carta 1 %s venceu  com a Densidade Populacional de:  %.2f\n", estado1, DensidadePopu1);
+        printf("Carta 1 (%s) venceu, com a menor Densidade Populacional de:  %.2f\n", cidade1, DensidadePopu1);
     }   else {
-        printf("Carta 2 %s venceu  com a Densidade Populacional de:  %.2f\n", estd2, DensiPopulacional2);
+        printf("Carta 2 (%s) venceu, com a menor Densidade Populacional de:  %.2f\n", cidade2, DensiPopulacional2);
     }
-         printf("\n");
-         
+            printf("\n");
+            
     if (PIBperCap1 > PIBpc2) {
-        printf("Carta 1 %s venceu  com o PIB per Capita de:  %.2f\n", estado1, PIBperCap1);
+        printf("Carta 1 (%s) venceu, com o PIB per Capita de:  %.2f\n", cidade1, PIBperCap1);
     }   else {
-        printf("Carta 2 %s venceu  com o PIB per Capita de:  %.2f\n", estd2, PIBpc2);
+        printf("Carta 2 (%s) venceu, com o PIB per Capita de:  %.2f\n", cidade2, PIBpc2);
     }
-         printf("\n");
-
+            printf("\n");
+    
     if (SuperPoder1 > SuperPoder2){
-        printf("Carta 1 %s venceu  o desafio com maior Super Poder \n", estado1);
+        printf("Carta 1 (%s) venceu o desafio com maior Super Poder \n", cidade1);
     }   else {
-        printf("Carta 2 %s venceu o desafio com maior Super Poder \n", estd2);
+        printf("Carta 2 (%s) venceu o desafio com maior Super Poder \n", cidade2);
     }
         printf("\n");
     printf("FIM\n");
