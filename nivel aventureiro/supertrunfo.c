@@ -140,7 +140,7 @@ int main() {
         }  
         break;
     case 0:
-        printf("comparação geral entre: \n%s\n e \n%s\n", pais1, pais2);
+        printf("comparação geral entre: \n%s\ne\n%s\n", pais1, pais2);
         if (compg1 > compg2)
         {
             printf("O vencedor é %s\n", pais1);
