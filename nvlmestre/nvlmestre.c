@@ -73,32 +73,32 @@ int main() {
 
     switch (escolha1) {
         case 1:
-            printf("população");
+            printf("população\n");
             valor1a = popu1;
             valor2a = popu2;
             break;
         case 2:
-            printf("Área");
+            printf("Área\n");
             valor1a = area1;
             valor2a = area2;
             break;
         case 3:
-            printf("PIB");
+            printf("PIB\n");
             valor1a = pib1;
             valor2a = pib2;
             break;
         case 4:
-            printf("pontos turisticos");
+            printf("pontos turisticos\n");
             valor1a = pnt1;
             valor2a = pntc2;
             break;
         case 5:
-            printf("densidade demografica");
+            printf("densidade demografica\n");
             valor1a = 1 / densidade1;
             valor2a = 1 / densidade2;
             break;
         default:
-            printf("algo deu errado");
+            printf("algo deu errado\n");
             break;
     }
 
@@ -113,57 +113,49 @@ int main() {
         printf("Erro: atributo repetido. Digite outro: ");
         scanf("%d", &escolha2);
     }
-        printf("\n");
 
     switch (escolha2) {
         case 1:
-        printf("população");
+        printf("população\n");
         valor1a = popu1;
         valor2a = popu2;
         break;
     case 2:
-        printf("Área");
+        printf("Área\n");
         valor1a = area1;
         valor2a = area2;
         break;
     case 3:
-        printf("PIB");
+        printf("PIB\n");
         valor1a = pib1;
         valor2a = pib2;
         break;
     case 4:
-        printf("pontos turisticos");
+        printf("pontos turisticos\n");
         valor1a = pnt1;
         valor2a = pntc2;
         break;
     case 5:
-        printf("densidade demografica");
+        printf("densidade demografica\n");
         valor1a = 1 / densidade1;
         valor2a = 1 / densidade2;
         break;
     default:
-        printf("algo deu errado");
+        printf("algo deu errado\n");
         break;
 }
-
-    if (escolha1 && escolha2)
-    {
-        printf("venceu");
-    }   else if (escolha1 != escolha2)
-    {
-        printf("empate");
-    }   else {
-        printf("perdeu");
-    }
 
     soma1 = valor1a + valor1b;
     soma2 = valor2a + valor2b;
 
-    printf("\n Comparação dos Atributos\n");
+        printf("\n");
+
+    printf("Comparação dos Atributos\n");
     printf("%s: %.2f pontos\n", pais1, soma1);
     printf("%s: %.2f pontos\n", pais2, soma2);
-
-    printf("\n Resultado Final\n");
+        printf("\n");
+    printf("Resultado Final\n");
+        printf("\n");
     if (soma1 > soma2) {
         printf("VENCEDOR: %s\n", pais1);
     } else if (soma2 > soma1) {
@@ -174,7 +166,7 @@ int main() {
 
 
     printf("\n");
-    printf("fim do joguin");
+    printf("fim do joguin\n");
     printf("\n");
 
     return 0;
